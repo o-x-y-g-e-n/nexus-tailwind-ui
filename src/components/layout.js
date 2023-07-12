@@ -129,7 +129,7 @@ const Layout = ({ children, title, description }) => {
         <main>{children}</main>
       </div>
       <footer className="bg-gray-100">
-        <div className="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div className="relative mx-auto px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
           <div className="lg:flex lg:items-end lg:justify-between">
             <div>
               <span className="text-xl cursor-pointer">
@@ -143,7 +143,7 @@ const Layout = ({ children, title, description }) => {
                 </Link>
               </span>
 
-              <p className="mx-auto mt-6 max-w-lg text-center leading-relaxed text-gray-500 lg:text-left">
+              <p className="mx-auto mt-6 text-center leading-relaxed text-gray-500 lg:text-left">
                 Comprehensive and innovative collection of Tailwind CSS
                 components and utilities. Designed to enhance your web
                 development workflow, our library offers a wide range of

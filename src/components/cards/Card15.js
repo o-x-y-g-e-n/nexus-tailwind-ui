@@ -2,7 +2,7 @@ import React from "react"
 
 const Card15 = () => {
   return (
-    <body class="bg-gray-100 max-w-3xl">
+    <body class="bg-gray-100">
       <div class="container mx-auto p-4">
         <div class="review-card bg-white rounded-lg shadow-md p-6">
           <div class="flex items-center mb-4">
