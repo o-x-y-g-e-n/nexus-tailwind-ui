@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-        "G-YHVBFWM8TR", // Google Analytics / GA
+        "G-7Q40974DN6", // Google Analytics / GA
         ],
         pluginConfig: {
           // Puts tracking script in the head instead of the body
