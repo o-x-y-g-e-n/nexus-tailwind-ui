@@ -39,5 +39,17 @@ module.exports = {
         icon: `src/images/day50-pirahna-removebg-preview.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+        "G-YHVBFWM8TR", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true
+        },
+      },
+    }
   ],
 }
