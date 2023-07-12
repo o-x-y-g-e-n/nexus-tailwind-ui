@@ -19,11 +19,14 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-        "G-7Q40974DN6", // Google Analytics / GA
+          "G-7Q40974DN6", // Google Analytics / GA
         ],
-        pluginConfig: {
+        gtagConfig: {
           anonymize_ip: true,
-          head: true
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
         },
       },
     },
@@ -50,6 +53,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/day50-pirahna-removebg-preview.png`, // This path is relative to the root of the site.
       },
-    }
+    },
   ],
 }
