@@ -165,7 +165,7 @@ const Layout = ({ children, title, description }) => {
 
               <li>
                 <Link
-                  to="/cards"
+                  to="/"
                   style={{
                     textDecoration: `none`,
                   }}
